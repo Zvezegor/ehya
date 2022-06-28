@@ -95,34 +95,29 @@
 }
 
 .hero-container__title {
-  font-family: HK Grotesk;
+  font-family: "HKGrotesk-Bold";
   font-size: 56px;
   font-weight: 700;
   line-height: 68px;
-  letter-spacing: 0.20000000298023224px;
+  letter-spacing: 0.2px;
   text-align: left;
   /* or 121% */
   height: 204px;
   width: 425px;
+  margin-left: 107px;
   left: 0px;
   top: 60px;
-  border-radius: nullpx;
   color: #183b56;
 }
 
-.hero-container__main-text {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 36px;
-  /* or 180% */
-  color: #5a7184;
+.hero__main-text {
   height: 108px;
   width: 652px;
+  left: 0px;
+  top: 292px;
 }
 
-.hero-container__button {
+.hero__button {
   height: 55px;
   width: 259px;
   left: 107.5px;
@@ -131,5 +126,10 @@
   padding: 15px, 40px, 15px, 40px;
   background: #183b56;
   color: #fff;
+}
+
+@font-face {
+  font-family: "HKGrotesk-Bold";
+  src: url(../Fonts/hk-grotesk-bold.otf);
 }
 /*# sourceMappingURL=styles.css.map */
