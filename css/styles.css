@@ -110,22 +110,56 @@
   color: #183b56;
 }
 
-.hero__main-text {
+.hero-container__main-text {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #5a7184;
   height: 108px;
   width: 652px;
-  left: 0px;
-  top: 292px;
+  display: block;
+  margin-left: 107px;
 }
 
-.hero__button {
+.hero-container__button {
+  margin-left: 107px;
+  margin-top: 52px;
+  padding: 0 0 0 0;
+  border: none;
   height: 55px;
   width: 259px;
-  left: 107.5px;
-  top: 514.5px;
   border-radius: 8px;
-  padding: 15px, 40px, 15px, 40px;
   background: #183b56;
-  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.hero-container__info {
+  display: flex;
+  width: 464px;
+  height: 36px;
+  margin-left: 107px;
+  margin-top: 48.5px;
+}
+
+.hero-container__info--1 {
+  display: flex;
+  width: 163px;
+}
+
+.hero-container__info--2 {
+  display: flex;
+  width: 118px;
+}
+
+.hero-container__info--3 {
+  display: flex;
+  width: 121px;
 }
 
 @font-face {
