@@ -56,22 +56,15 @@
   left: 80px;
   top: 136px;
   margin-left: 107px;
+  margin-top: 36px;
 }
 
 .hero-container__hashtag {
   height: 32px;
   width: 175px;
-  left: 0px;
-  top: 0px;
   border-radius: 2000px;
-  padding: 6px, 16px, 6px, 16px;
-  margin-top: 67px;
   margin-left: 107px;
   background: #36b37e1a;
-  font-family: Open Sans;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
   letter-spacing: 0px;
   text-align: center;
   align-items: center;
@@ -92,6 +85,7 @@
   line-height: 20px;
   letter-spacing: 0px;
   text-align: center;
+  display: block;
 }
 
 .hero-container__title {
@@ -145,21 +139,83 @@
   height: 36px;
   margin-left: 107px;
   margin-top: 48.5px;
+  justify-content: flex-start;
 }
 
 .hero-container__info--1 {
   display: flex;
   width: 163px;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .hero-container__info--2 {
   display: flex;
   width: 118px;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .hero-container__info--3 {
   display: flex;
   width: 121px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Collection {
+  height: 490px;
+  width: 1140px;
+  margin-left: 150px;
+  margin-top: 120px;
+  display: flex;
+}
+
+.Collection__mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+.Collection__right {
+  height: 426px;
+  width: 412px;
+  margin-left: 57px;
+}
+
+.Collection__right--title {
+  font-family: "HKGrotesk-Bold";
+  margin-top: 0px;
+  margin-bottom: 24px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+
+.Collection__right--description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0px;
+  color: #5a7184;
+  height: 225px;
+  width: 392px;
+  margin-top: 24px;
+}
+
+.Collection__right--link {
+  margin-top: 32px;
+  height: 25px;
+  width: 227px;
+  color: #1565d8;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
 }
 
 @font-face {
