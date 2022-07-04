@@ -243,8 +243,39 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: stretch;
+  margin-top: 17px;
+}
+
+.trends__list--item {
+  margin-top: 31px;
+}
+
+.trends__list--cart {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 48px;
+}
+
+.trends__list--title {
+  font-family: "HKGrotesk-Bold";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.trends__list--price {
+  color: #5a7184;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0;
 }
 
 .trends__collections {
@@ -256,6 +287,19 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.trends__collections--a {
+  font-family: "HKGrotesk-Bold";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+  height: 64px;
+  width: 215px;
+  margin-top: 25px;
 }
 
 .tabs__btn {
