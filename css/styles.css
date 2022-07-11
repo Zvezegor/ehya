@@ -336,6 +336,11 @@
   color: #183b56;
 }
 
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
 @font-face {
   font-family: "HKGrotesk-Bold";
   src: url(../Fonts/hk-grotesk-bold.otf);
