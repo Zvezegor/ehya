@@ -1,0 +1,89 @@
+.stories {
+  display: flex;
+  height: 606px;
+  width: 1150px;
+  margin-top: 80px;
+  border-top: 1px solid #e5eaf4;
+  padding-top: 130px;
+  &__disclamer {
+    width: 337px;
+    height: 395px;
+    &--tag {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      color: #36b37e;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 6px 16px;
+      background: rgba(54, 179, 126, 0.1);
+      border-radius: 2000px;
+      height: 32px;
+      width: 102px;
+    }
+    &--title {
+      font-family: "HKGrotesk-Bold";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 60px;
+      color: #183b56;
+    }
+    &--description {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 36px;
+      color: #5a7184;
+      height: 115px;
+      width: 392px;
+    }
+    &--button1 {
+      border: 2px solid #959ead;
+      border-radius: 2000px;
+      height: 56px;
+      width: 54px;
+      border-radius: 2000px;
+      background-color: #fff;
+      cursor: pointer;
+    }
+    &--button2 {
+      border: 2px solid #183b56;
+      border-radius: 2000px;
+      height: 56px;
+      width: 54px;
+      border-radius: 2000px;
+      background-color: #fff;
+      cursor: pointer;
+      margin-left: 22px;
+    }
+  }
+  &__item1 {
+    margin-left: 96px;
+  }
+  &__item2 {
+    margin-left: 28px;
+  }
+  &__base {
+    height: 178px;
+    width: 312px;
+    background: #fafdff;
+    font-family: "HKGrotesk";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    z-index: 2;
+    padding-top: 20px;
+    padding-left: 20px;
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+  }
+  &__text {
+    margin-bottom: 12px;
+  }
+}
