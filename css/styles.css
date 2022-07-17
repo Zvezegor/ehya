@@ -467,6 +467,12 @@
   margin-bottom: 12px;
 }
 
+.subscribe {
+  background-image: url(/imgs/subscribe-bg-img.jpg);
+  height: 300px;
+  width: 1440px;
+}
+
 @font-face {
   font-family: "HKGrotesk-Bold";
   src: url(../Fonts/hk-grotesk-bold.otf);
