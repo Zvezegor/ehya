@@ -55,8 +55,8 @@
   height: 700px;
   left: 80px;
   top: 136px;
-  margin-left: 107px;
-  margin-top: 36px;
+  margin: 0 auto;
+  padding-top: 62px;
 }
 
 .hero-container__hashtag {
@@ -169,6 +169,8 @@
   margin-left: 150px;
   margin-top: 120px;
   display: flex;
+  margin: auto;
+  margin-top: 120px;
 }
 
 .Collection__mid {
@@ -223,6 +225,8 @@
   margin-top: 145px;
   width: 1135px;
   height: 1040px;
+  margin: 0 auto;
+  margin-top: 145px;
 }
 
 .trends__head {
@@ -349,6 +353,10 @@
   justify-content: space-evenly;
 }
 
+.review {
+  margin: 0 auto;
+}
+
 .review__main {
   font-family: "HKGrotesk";
   font-size: 20px;
@@ -374,10 +382,12 @@
   margin-top: 80px;
   border-top: 1px solid #e5eaf4;
   padding-top: 130px;
+  margin: 0 auto;
+  margin-top: 80px;
 }
 
 .stories__disclamer {
-  width: 337px;
+  width: 392px;
   height: 395px;
 }
 
@@ -468,9 +478,59 @@
 }
 
 .subscribe {
-  background-image: url(/imgs/subscribe-bg-img.jpg);
+  background: url(/imgs/subscribe-bg-img.jpg);
+  background-size: cover;
   height: 300px;
-  width: 1440px;
+  width: 100%;
+  margin-top: 140px;
+}
+
+.subscribe__wrapper {
+  display: flex;
+}
+
+.footer__wrapper {
+  height: 262px;
+  width: 1042px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 128px;
+}
+
+.footer__info {
+  width: 263px;
+  height: 182.27px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__nav--name {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style: none;
+  height: 263px;
+  width: 165px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__nav--text {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 24px;
 }
 
 @font-face {

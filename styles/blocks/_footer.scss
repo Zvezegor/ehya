@@ -1,0 +1,44 @@
+.footer {
+  &__wrapper {
+    height: 262px;
+    width: 1042px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 128px;
+  }
+  &__info {
+    width: 263px;
+    height: 182.27px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__nav {
+    &--name {
+      font-family: "Open Sans";
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 25px;
+      letter-spacing: 0px;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: flex-start;
+      list-style: none;
+      height: 263px;
+      width: 165px;
+      margin: 0;
+      padding: 0;
+    }
+    &--text {
+      font-family: "Open Sans";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22px;
+      margin-top: 24px;
+    }
+  }
+}
